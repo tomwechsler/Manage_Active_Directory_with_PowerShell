@@ -1,4 +1,4 @@
-﻿#More filters can be found here: http://www.ldapexplorer.com
+
 $filter = "(|(objectClass=domain)(objectClass=organizationalUnit)(objectClass=group)(sAMAccountType=805306368)(objectCategory=Computer))" 
 
 #("LDAP://DOMAINCONTROLLER/LDAP") Replace DOMAINCONTROLLER AND LDAP with your values
@@ -9,7 +9,7 @@ $dSearch.PageSize = 1000
 $dSearch.Filter = $filter
 $dSearch.SearchScope = "Subtree"
 
-#List of extended permissions: https://technet.microsoft.com/en-us/library/ff405676.aspx
+
 $extPerms = `
         '00299570-246d-11d0-a768-00aa006e0529', #reset password
         '0'
