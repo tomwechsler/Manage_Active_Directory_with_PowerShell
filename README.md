@@ -1,1 +1,2 @@
-Active Directory mit der PowerShell verwalten - Das Verwalten eines Active Directory mit der PowerShell ist der Fokus in diesem Repo.
+# Active Directory mit der PowerShell verwalten 
+Managing an Active Directory with PowerShell is the focus in this Repository.
